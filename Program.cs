@@ -10,6 +10,7 @@ namespace EFGetStarted
             using (var db = new BloggingContext())
             {
                 // Create
+                //Haciendo Commits
                 Console.WriteLine("Inserting a new blog");
                 db.Add(new Blog { Url = "http://blogs.msdn.com/adonet" });
                 db.SaveChanges();
